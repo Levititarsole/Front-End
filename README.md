@@ -60,7 +60,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de WCAG test naar voren kwamen:
 * Op het moment van checken van de website waren sommige knoppen niet werkend wanneer de website naar de mobile versie ging.
 * De website maakten bijna alleen maar gebruik van div's en de tekst was niet 100% samantisch
-* * De website was goed te navigeren aan de hand van tabs.
+* De website was goed te navigeren aan de hand van tabs.
 * Buiten de knop die niet werkte op de home page werkte alles perfect voor mobile.
 * De website maakt gebruik van zeer uitgebreide alt teksten.
 * Alle video's binnen in de website stonden op autoplay en konden niet worden gepauzeert.
