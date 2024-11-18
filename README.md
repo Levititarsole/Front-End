@@ -22,9 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  ```
-  Responsive
-  ```
+  De focus die ik leg dit vak gaat worden op  ```Responsive``` Dit omdat ik het gevoel heb dat ik hier nog het meeste in kan leren
   
  
 </details>
