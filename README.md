@@ -75,8 +75,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
+```
   ### de hele pagina: 
   <img src="./images/github/pagina-1.png" width="375px" alt="Homepagina met alle HTML elementen">
+```
 
   ### dynamisch deel (bijv menu): 
   <img src="./images/github/pagina-2.png" width="375px" alt="Specifiek dynamisch deel van de homepagina">
