@@ -10,9 +10,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Jij
+## Jij ✅
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -31,9 +31,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Je website
+## Je website ✅
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -51,7 +51,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Toegankelijkheidstest 1/2 (week 1)
+## Toegankelijkheidstest 1/2 (week 1) ✅
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
