@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Openingstijden pagina Efteling  
-  <img src="./images/openingstijden-page-eftling" width="375px" alt="De Openingstijden pagina van de Efteling">
+  <img src="./images/openingstijden-page-eftling.png" width="375px" alt="De Openingstijden pagina van de Efteling">
  
 </details>
 
