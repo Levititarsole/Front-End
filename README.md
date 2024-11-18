@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home Pagina Efteling  
-  <img src="./images/home-page_efteling.png" width="375px" alt="De home pagina van de Efteling">
+  <img src="./images/github/home-page_efteling.png" width="375px" alt="De home pagina van de Efteling">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Openingstijden pagina Efteling  
-  <img src="./images/openingstijden-page-eftling.png" width="375px" alt="De Openingstijden pagina van de Efteling">
+  <img src="./images/github/openingstijden-page-eftling.png" width="375px" alt="De Openingstijden pagina van de Efteling">
  
 </details>
 
@@ -66,7 +66,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 * Alle video's binnen in de website stonden op autoplay en konden niet worden gepauzeert.
 * Binnen in de website word geen dark-mode gesupport 
 
-
 </details>
 
 
@@ -77,13 +76,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./images/github/pagina-1.png" width="375px" alt="Homepagina met alle HTML elementen">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="./images/github/pagina-2.png" width="375px" alt="Specifiek dynamisch deel van de homepagina">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="./images/github/pagina-3.png" width="375px" alt="Wellicht specifiek dynamisch deel van de homepagina">
 
 </details>
 
