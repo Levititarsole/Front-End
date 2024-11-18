@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Levi Titarsole
 
   #### Je startniveau:
-  Rood
+  Mijn start niveau voor dit project is ```Rood``` Dit omdat wel ervaring heb met code maar me nog zeker geen expert noem.
 
   #### Je focus:
   De focus die ik leg dit vak gaat worden op  ```Responsive``` Dit omdat ik het gevoel heb dat ik hier nog het meeste in kan leren
