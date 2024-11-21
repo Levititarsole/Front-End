@@ -1,143 +1,53 @@
-/************************/
-/* CODE VOOR @FONT-FACE */
-/************************/
+:root{
+
+  /* fonts */
+  --heading-font: Alegreya, serif;
+  --main-font: Alegreya Sans, Sans-serif;
+
+  /* kleuren */
+  --main-bg-color: #fcf5ed;
+  --main-font-color: #4d3928;
+  --second-font-color: #aa182c;
+
+  /* paddings */
+  --blok-padding: 20px;
+
+}
 
 
+*{
+  font-family: var(--main-font);
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 200;
+}
 
+.red-button{
+  display: inline-block;
+  padding: 7px 20px;
+  border: 2px solid #8F1425;
+  /* box-shadow: 0 0 0 7px var(--second-font-color); */
+  outline: 5px solid var(--second-font-color);
+  background-color: var(--second-font-color);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  font-family: var(--main-font);
+  text-decoration: none;
+  border-radius: 2px;
+}
 
+@media (min-width: 38em) {
 
-
-/* Simpele CSS Remedy */
-/* naar een idee van Jen Simmons */
-/* github.com/jensimmons/cssremedy */
-*, *::after, *::before {
-    box-sizing:border-box;  
+  body{
+    font-size: 16px;
+    background-color: var(--main-bg-color);
   }
-  
-  
-  
-  
-  
-  /*******************************/
-  /* CODE VOOR HET EERSTE BLOKJE */
-  /*******************************/
-  
-  /* hiermee selecteer je het eerste blokje */
-  li:first-of-type {
-    padding:1em;
-    /* onderstaande regel helpt om de content in het blokje te houden */
-    /* en als het nodig is kun je dan scrollen */
-    /* haal maar eens weg en kijk wat er gebeurt */
-    /* https://css-tricks.com/almanac/properties/o/overflow/ */
-    overflow:auto;
-  }
-  
-  /* hiermee selecteer je de h2 in het eerste blokje */
-  li:first-of-type h2 {
-    /* jouw code hier */
-    
-  }
-  
-  li:first-of-type p {
-    /* jouw code hier */
-    
-  }
-  
-  /* hiermee selecteer je de eerste letter van de p in het eerste blokje */
-  li:first-of-type p::first-letter {
-    /* jouw code hier */
-    
-  }
-  
-  
-  
-  
-  
-  /*******************************/
-  /* CODE VOOR HET TWEEDE BLOKJE */
-  /*******************************/
-  
-  /* hiermee selecteer je het tweede blokje */
-  li:nth-of-type(2) {
-    /* custom properties voor tweede blokje */
-    /* zelf verder aanvullen */
-    --background-color:rgb(0 24 54);
-    
-    /* met onderstaande regels staat de tekst in het midden */
-    /* en elk woord op een nieuwe regel */
-    display:grid;
-    grid-auto-columns:min-content;  
-    place-content:center;
-    text-align:center;
-    
-    background-color:var(--background-color);
-    
-    
-  }
-  
-  li:nth-of-type(2) h2 {
-    /* jouw code hier */
-    
-  }
-  
-  
-  
-  
-  
-  /******************************/
-  /* CODE VOOR HET DERDE BLOKJE */
-  /******************************/
-  
-  /* how to @font-face -> css-tricks.com/snippets/css/using-font-face-in-css */
-  /* url -> https://assets.codepen.io/274456/Saira_Condensed-Bold.ttf */
-  
-  /* jouw @font-face code hier */
-  @font-face {
-    
-  }
-  
-  li:nth-of-type(3) {
-    /* jouw code hier */
-    
-  }
-  
-  li:nth-of-type(3) h2 {
-    /* jouw code hier */
-    
-  }
-  
-  
-  
-  
-  
-  /*******************************/
-  /* CODE VOOR HET VIERDE BLOKJE */
-  /*******************************/
-  
-    /* it's all yours */
-    /* jouw code hier */
-  
-  
-  
-  
-  
-  /*******************************/
-  /* CODE VOOR HET VIJFDE BLOKJE */
-  /*******************************/
-  
-    /* it's all yours */
-    /* jouw code hier */
-  
-  
-  
-  
-  
-  /******************************/
-  /* CODE VOOR HET ZESDE BLOKJE */
-  /******************************/
-  
-    /* it's all yours */
-    /* jouw code hier */
-  
-  
+}

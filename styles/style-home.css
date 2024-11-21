@@ -1,0 +1,30 @@
+@media (min-width: 38em) {
+
+    section:first-child{
+        position: relative;;
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: bisque; /*Tijdelijk */
+        padding: 0 !important;
+    }
+
+    section:first-of-type > section:first-of-type {
+        background-color: white;
+        position: absolute;
+        bottom: -50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        padding: var(--blok-padding);
+    }
+
+    section:first-of-type > section:first-of-type h3{
+        color: var(--second-font-color);
+        font-size: 34px;
+    }
+}
