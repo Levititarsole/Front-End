@@ -20,6 +20,7 @@
   --radius-medium: 5px;
 }
 
+/* Maak gebruik van EM ipv pixels */
 
 *{
   font-family: var(--main-font);
