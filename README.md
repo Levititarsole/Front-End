@@ -104,9 +104,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Stefan      | Anna          | Yaun    | Levi       |
   | ---            | ---                | ---          | ---              |
-  | 1.⁠ ⁠Een image in mijn website wordt groter dan mijn telefoon scherm hoe kan ik dit aanpassen   | Moeten plaatjes met een link of als jpg in de website worden gezet           | Is het oke dat 1 van mij pagina's meer verschillende secties heeft    | Wanneer je nou wel een div gebruiken mag    |
-  | ⁠⁠en hoe kan ik me website goed responsive inrichten | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | En voor hoeveel verschillende dingen ik een Root ellement gebruiken moet              |
+  | 1.⁠ ⁠Een image in mijn website wordt groter dan mijn telefoon scherm hoe kan ik dit aanpassen   | Moeten plaatjes met een link of als jpg in de website worden gezet           | Hoe werkt een grid op de juiste maniet    | Wanneer je nou wel een div gebruiken mag    |
+  | ⁠⁠en hoe kan ik me website goed responsive inrichten | dit als er tijd is | Is het oke dat 1 van mij pagina's meer verschillende secties heeft| En voor hoeveel verschillende dingen ik een Root ellement gebruiken moet |
 
 
   ### Verslag van meeting
