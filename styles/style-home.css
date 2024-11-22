@@ -9,6 +9,7 @@
         justify-content: center;
         flex-direction: column;
         background-color: bisque; /*Tijdelijk */
+        gap: 20px;
         padding: 0 !important;
     }
 
@@ -19,12 +20,44 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 60%;
+        width: 80%;
         padding: var(--blok-padding);
+        border-radius: var(--blok-radius);
     }
 
     section:first-of-type > section:first-of-type h3{
         color: var(--second-font-color);
-        font-size: 34px;
+        font-size: 25px;
     }
+
+    h1{
+        font-size: 2.6em;
+        font-weight: 200;
+        text-align: center;
+        color: white;
+    }
+
+    section:first-of-type > a:first-of-type {
+        border: 3px solid white;
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+        border-radius: var(--blok-radius);
+        padding: 10px 20px;
+    }
+
+
+
+    section > a:first-of-type::after {
+        content: "";
+        background-image:url('../assets/right-arrow-next-svgrepo-com.svg');
+        background-size: contain;
+        display: inline-block;
+        width: .625em;
+        height: .625em;
+        vertical-align: middle;
+        filter:invert();
+        margin-left: 10px;
+      }
+
 }

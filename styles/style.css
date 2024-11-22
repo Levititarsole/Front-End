@@ -8,10 +8,17 @@
   --main-bg-color: #fcf5ed;
   --main-font-color: #4d3928;
   --second-font-color: #aa182c;
+  --border-color: #ede5d5;
 
   /* paddings */
   --blok-padding: 20px;
 
+  /* border-radius */
+  --blok-radius: 5px;
+  --button-radius: 2px;
+
+  --radius-small: 2px;
+  --radius-medium: 5px;
 }
 
 
@@ -27,11 +34,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
+blockst{
+  border: 3px solid black;
+}
+
 .red-button{
-  display: inline-block;
+  display: inline-flex;
   padding: 7px 20px;
   border: 2px solid #8F1425;
-  /* box-shadow: 0 0 0 7px var(--second-font-color); */
   outline: 5px solid var(--second-font-color);
   background-color: var(--second-font-color);
   color: white;
@@ -41,7 +51,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   font-family: var(--main-font);
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: var(--radius-small);
+  gap:.10px;
+  align-items:center;
+}
+.red-button:hover {
+background-color: #9c1426;
+border: 2px solid #750c1a;
+outline: 5px solid #9c1426;
+}
+
+.red-button::after {
+  content: "";
+  background-image:url('../assets/right-arrow-next-svgrepo-com.svg');
+  background-size: contain;
+  display: inline-block;
+  width: .625em;
+  height: .625em;
+  vertical-align: middle;
+  filter:invert();
 }
 
 @media (min-width: 38em) {
@@ -51,3 +79,4 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--main-bg-color);
   }
 }
+
