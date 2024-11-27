@@ -111,10 +111,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie feedback gehad van sanne over het gebruik van van me css en root elementen. Ook vond ik het fijn dat ik van Sanne goeie tips kreeg
 
 </details>
 
