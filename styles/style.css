@@ -4,20 +4,32 @@
   --heading-font: Alegreya, serif;
   --main-font: Alegreya Sans, Sans-serif;
 
+  /* font-size */
+  --text-size: 1.05em;
+  --heading-size: 1.3em;
+  --lead-size: 2.6em;
+
   /* kleuren */
   --main-bg-color: #fcf5ed;
   --main-font-color: #4d3928;
   --second-font-color: #aa182c;
   --border-color: #ede5d5;
+  --border-second-color: #ECE6D6;
+  --light-button-color: #FBFBF8;
 
   /* paddings */
   --blok-padding: 20px;
 
+  /* margins */
+  --heading-margin: 1.2em;
+  --blok-margin: 2em;
+  --list-margin: .6em;
+
   /* border-radius */
   --blok-radius: 5px;
-  --button-radius: 2px;
-  --radius-small: 2px;
-  --radius-medium: 5px;
+  --button-radius: .2em;
+  --radius-small: .15em;
+  --radius-medium: .3em;
 }
 
 /* Maak gebruik van EM ipv pixels */
@@ -34,8 +46,42 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
-blockst{
-  border: 3px solid black;
+.blockst{
+  border: 1px solid var(--border-second-color);
+  background-color: white;
+  bottom: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--blok-padding);
+  border-radius: var(--blok-radius);
+}
+
+.maxwitdh{
+  width: 80%;
+  margin-inline: auto;
+  max-width: 1200px;
+  /* Bron = van sanne */
+}
+
+.trans-button{
+  display: inline-flex;
+  padding: 7px 20px;
+  border: 0.15em solid white;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  font-size: var(--text-size);
+  font-family: var(--main-font);
+  text-decoration: none;
+  border-radius: var(--radius-medium);
+  gap:.10px;
+  align-items:center;
+}
+
+.trans-button:hover{
+  background-color: rgba(255, 255, 255, 0.254);
 }
 
 .red-button{
@@ -48,35 +94,66 @@ blockst{
   font-size: 16px;
   text-align: center;
   position: relative;
-  font-size: 20px;
+  font-size: var(--text-size);
   font-family: var(--main-font);
   text-decoration: none;
   border-radius: var(--radius-small);
   gap:.10px;
   align-items:center;
 }
+
 .red-button:hover {
 background-color: #9c1426;
 border: 2px solid #750c1a;
 outline: 5px solid #9c1426;
 }
 
-.red-button::after {
+.white-button{
+  display: inline-flex;
+  padding: 7px 20px;
+  border: 2px solid var(--border-second-color);
+  outline: 5px solid white;
+  background-color: white;
+  color: var(--second-font-color);
+  width: fit-content;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  font-size: var(--text-size);
+  font-family: var(--main-font);
+  text-decoration: none;
+  border-radius: var(--radius-small);
+  gap:.10px;
+  align-items:center;
+  box-shadow: 0px 0px 0px 6px var(--border-second-color);
+  margin-top: 1em;
+}
+
+.white-button:hover{
+  outline: 5px solid rgb(252, 252, 252);
+  background-color: rgb(252, 252, 252);
+}
+
+.arrow::after {
   content: "";
   background-image:url('../assets/right-arrow-next-svgrepo-com.svg');
   background-size: contain;
   display: inline-block;
+  margin-left: .3em;
   width: .625em;
   height: .625em;
   vertical-align: middle;
   filter:invert();
 }
 
-@media (min-width: 38em) {
-
-  body{
-    font-size: 16px;
-    background-color: var(--main-bg-color);
-  }
+.card-img{
+    overflow: hidden;
+    width: 140%;
+    object-fit: contain;
+    margin-bottom: calc(var(--heading-margin) + 0.5em);
 }
 
+body{
+  font-size: var(--text-size);
+  background-color: var(--main-bg-color);
+}
