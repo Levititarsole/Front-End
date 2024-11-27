@@ -157,3 +157,32 @@ body{
   font-size: var(--text-size);
   background-color: var(--main-bg-color);
 }
+
+header{
+  height: 2.1em;
+  padding: .4em;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+  background-color: var(--light-button-color);
+  border-bottom: solid 2px var(--border-color);
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 20px;
+}
+
+header nav ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+header nav img {
+  height: 2.8em;
+}
