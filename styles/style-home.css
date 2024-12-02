@@ -11,7 +11,7 @@
             align-items: flex-start;
             text-decoration: none;
             padding: 0px var(--blok-padding)!important;
-            color: var(--second-font-color);
+            color: var(--button-font-color);
         }
         
 }
@@ -22,7 +22,7 @@
 section:first-child{
     position: relative;;
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@ section:first-child{
 }
 
 section:first-of-type > section:first-of-type {
-    background-color: white;
+    background-color: var(--light-button-color);
     position: absolute;
     bottom: -50px;
     display: flex;
@@ -49,7 +49,7 @@ section:first-of-type > section:first-of-type {
 }
 
 section:first-of-type > section:first-of-type h3{
-    color: var(--second-font-color);
+    color: var(--button-font-color);
     font-size: var(--heading-size);
 }
 
@@ -66,7 +66,7 @@ section:first-of-type > section:last-child a{
     padding: 20px;
     text-decoration: none;
     font-weight: 600;
-    color: var(--second-font-color);
+    color: var(--button-font-color);
 }
 
 section:first-of-type > section:last-child a:first-child{
@@ -90,10 +90,15 @@ section:first-of-type > section:last-child a::after{
 }
 
 h1{
-    font-size: 2em;
+    font-size: calc(var(--lead-size) - .5em);
     font-weight: 200;
+    width: 80%;
+    -webkit-font-smoothing: antialiased;
     text-align: center;
     color: white;
+    font-family: var(--head-font);
+    line-height: calc(var(--lead-size) - 1.6em);
+    text-shadow: 2px 2px 12px rgba(0,0,0,.8);
     }
 
 /* Oppeningstijden */
@@ -113,9 +118,19 @@ section:nth-child(2) a {
     color: var(--main-font-color);
 }
 
+section:nth-child(2) a p:last-child{
+    color: var(--main-font-color);
+    text-decoration: underline;
+}
+
+section:nth-child(2) a p:last-child:hover{
+    color: var(--button-font-color);
+}
+
 /* Eerste blok  */
 section:nth-child(3) {
     margin-top: var(--blok-margin);
+    background-color: var(--block-bg-color);
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -127,7 +142,7 @@ section:nth-child(3) {
 
 section:nth-child(3) h4 {
     font-size: var(--heading-size);
-    color: var(--second-font-color);
+    color: var(--button-font-color);
 
 }
 
@@ -164,6 +179,7 @@ section:nth-child(4) ul{
 }
 
 section:nth-child(4) ul li {
+    background-color: var(--block-bg-color);
     flex-direction: column;
     align-items: normal;
     color: var(--main-font-color);
@@ -175,7 +191,7 @@ section:nth-child(4) ul li {
 section:nth-child(4) ul li h5{
     margin-top: calc(var(--heading-margin) - .5em);
     font-size: var(--heading-size);
-    color: var(--second-font-color);
+    color: var(--button-font-color);
 }
 
 section:nth-child(4) ul li p{
@@ -191,7 +207,7 @@ section:nth-child(4) ul li img{
 /* Derde blok */
 
 section:nth-child(5) {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,9 +222,13 @@ section:nth-child(5) {
 section:nth-child(5) h2{
     color: white;
     font-size: calc(var(--heading-size) + .5em);
+    font-family: var(--head-font) !important;
     width: 70%;
     text-align: center;
     margin-bottom: var(--list-margin);
+    line-height: calc(var(--lead-size) - 1.6em);
+    text-shadow: 2px 2px 12px rgba(0,0,0,.8);
+    
 }
 
 /* Artiekelen blok */
@@ -221,7 +241,7 @@ section:nth-child(6) {
 }
 
 section:nth-child(6) h3 {
-    color: var(--second-font-color);
+    color: var(--button-font-color);
     font-size: var(--heading-size);
     text-align: center;
     width: 100%;
@@ -244,6 +264,7 @@ section:nth-child(6) ul {
 
 section:nth-child(6) ul li {
     scroll-snap-align: start;
+    background-color: var(--block-bg-color);  color: var(--button-font-color);
     width: 11em;
     flex-shrink: 0;
     display: flex;
@@ -268,7 +289,7 @@ section:nth-child(6) ul li article a img{
 
 section:nth-child(6) ul li article a p{
 text-transform: uppercase;
-color: var(--second-font-color);
+color: var(--button-font-color);
 font-weight: 900 !important;
 font-size: .8em;
 padding: var(--list-margin) 0;

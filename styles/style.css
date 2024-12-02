@@ -1,6 +1,10 @@
 :root{
 
+  /* light/darkmode */
+  color-scheme: light dark;
+
   /* fonts */
+  --head-font: head, Sans-serif;
   --heading-font: Alegreya, serif;
   --main-font: Alegreya Sans, Sans-serif;
 
@@ -11,11 +15,15 @@
 
   /* kleuren */
   --main-bg-color: #fcf5ed;
+  --block-bg-color: #fefefe;
   --main-font-color: #4d3928;
   --second-font-color: #aa182c;
+  --button-font-color: #aa182c;
   --border-color: #ede5d5;
   --border-second-color: #ECE6D6;
   --light-button-color: #FBFBF8;
+  --white-button-color: #FFFFFF;
+  
 
   /* paddings */
   --blok-padding: 20px;
@@ -32,7 +40,33 @@
   --radius-medium: .3em;
 }
 
-/* Maak gebruik van EM ipv pixels */
+@font-face {
+  font-family: head;
+  src: url(../assets/Efteling-Regular.woff2);
+}
+
+@font-face {
+  font-family: Alegreya Sans;
+  src: url(../assets/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Alegreya;
+  src: url(../assets/Alegreya-VariableFont_wght.ttf);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg-color: #2b2623;
+    --block-bg-color: #3e3a36;
+    --main-font-color: #eae1d6;
+    --button-font-color: #ffffff;
+    --border-color: #3c3835;
+    --border-second-color: #47423f;
+    --light-button-color: #3e3a36;
+    --white-button-color: #5a534f;
+  }
+}
 
 *{
   font-family: var(--main-font);
@@ -88,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   padding: 7px 20px;
   border: 2px solid #8F1425;
-  outline: 5px solid var(--second-font-color);
+  outline: 3px solid var(--second-font-color);
   background-color: var(--second-font-color);
   color: white;
   font-size: 16px;
@@ -105,16 +139,16 @@ h1, h2, h3, h4, h5, h6 {
 .red-button:hover {
 background-color: #9c1426;
 border: 2px solid #750c1a;
-outline: 5px solid #9c1426;
+outline: 3px solid #9c1426;
 }
 
 .white-button{
   display: inline-flex;
   padding: 7px 20px;
   border: 2px solid var(--border-second-color);
-  outline: 5px solid white;
-  background-color: white;
-  color: var(--second-font-color);
+  outline: 3px solid var(--white-button-color);
+  background-color: var(--white-button-color);
+  color: var(--button-font-color);
   width: fit-content;
   font-size: 16px;
   text-align: center;
@@ -125,12 +159,12 @@ outline: 5px solid #9c1426;
   border-radius: var(--radius-small);
   gap:.10px;
   align-items:center;
-  box-shadow: 0px 0px 0px 6px var(--border-second-color);
+  box-shadow: 0px 0px 0px 3px var(--border-second-color);
   margin-top: 1em;
 }
 
 .white-button:hover{
-  outline: 5px solid rgb(252, 252, 252);
+  outline: 3px solid rgb(252, 252, 252);
   background-color: rgb(252, 252, 252);
 }
 
@@ -158,8 +192,10 @@ body{
   background-color: var(--main-bg-color);
 }
 
+/* Navigatie */
+
 header{
-  height: 2.1em;
+  height: 5em;
   padding: .4em;
   width: 100vw;
   position: fixed;
@@ -172,17 +208,76 @@ header{
 
 header nav {
   display: flex;
+  flex-direction: row-reverse;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px 0 20px;
 }
 
-header nav ul {
-  list-style: none;
-  text-transform: uppercase;
+header nav div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.3em;
 }
 
 header nav img {
-  height: 2.8em;
+  height: 4em;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  color: var(--main-font-color);
+  gap: 30px;
+}
+
+header nav ul:first-child li a{
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-size: .85em;
+}
+
+header nav ul:last-child {
+  flex-direction: row-reverse;
+  font-family: var(--heading-font) !important;
+  align-items: center;
+}
+
+header nav ul:last-child li a{
+  text-decoration: none;
+}
+
+header nav ul:last-child {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+
+header nav ul:last-child li:nth-child(1) a{
+  padding: .25em .8em;
+  font-family: var(--main-font) !important;
+  color: white;
+}
+
+header nav ul:last-child li a{
+  font-family: var(--heading-font) !important;
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-size: 1.1em;
+}
+
+header nav ul:last-child li svg{
+  height: 1em;
+  width: 1em;
+}
+
+#finder circle {
+  stroke: var(--main-font-color) !important;
+  fill: transparent !important;
+}
+
+#finder path {
+  fill: var(--main-font-color) !important;
 }
