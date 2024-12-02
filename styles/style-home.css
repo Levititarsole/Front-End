@@ -12,10 +12,75 @@
             text-decoration: none;
             padding: 0px var(--blok-padding)!important;
             color: var(--button-font-color);
-        }
-        
+        }        
 }
 
+@media (min-width: 42em) {
+
+    section:first-child{
+        height: 80vh !important;
+    }
+
+    h1 {
+        font-size: 3.5em !important;
+        width: 40vw !important;
+    }
+
+    /* eerste blok */
+    section:nth-child(3){
+        flex-direction: row !important;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+
+    section:nth-child(3) h4{
+        font-size: 1.7em !important;
+    }
+
+    section:nth-child(3) img{
+        width: 25em;
+        margin: 20px 0 0;
+    }
+
+    section:nth-child(4) ul{
+        display: flex;
+        margin-inline: auto;
+        max-width: 1240px;
+        width: 84%;
+        gap: 30px;
+        margin-bottom: var(--heading-margin);
+    }
+
+    section:nth-child(4) ul li img {
+        height: 24vh;
+        object-fit: cover;
+    }
+
+    section:nth-child(5) h2{
+        font-size: 3.5em !important;
+        width: 40vw !important;
+    }
+
+    section:nth-child(6) h3 {
+        font-size: 1.7em !important;
+    }
+
+    section:nth-child(6) ul {
+        justify-content: center;
+    }
+
+    section:nth-child(6) ul li {
+        width: 16em !important;
+    }
+
+    section:nth-child(6) ul li article a h4 {
+        font-size: 1.4em !important;
+    }
+
+    section:nth-child(6) ul li article a time {
+        font-size: 1.1em !important;    
+    }
+}
 
 
 /* hero image */

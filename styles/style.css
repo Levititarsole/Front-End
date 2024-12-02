@@ -159,7 +159,7 @@ outline: 3px solid #9c1426;
   border-radius: var(--radius-small);
   gap:.10px;
   align-items:center;
-  box-shadow: 0px 0px 0px 3px var(--border-second-color);
+  box-shadow: 0px 0px 0px 4px var(--border-second-color);
   margin-top: 1em;
 }
 
@@ -215,6 +215,12 @@ header nav {
   padding: 0 40px 0 20px;
 }
 
+header nav ul li a:hover {
+  color: var(--button-font-color) !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
 header nav div{
   display: flex;
   flex-direction: column;
@@ -254,6 +260,9 @@ header nav ul:last-child {
   align-items: center;
 }
 
+header nav ul li:hover{
+  color: var(--button-font-color);
+}
 
 header nav ul:last-child li:nth-child(1) a{
   padding: .25em .8em;
@@ -268,16 +277,11 @@ header nav ul:last-child li a{
   font-size: 1.1em;
 }
 
-header nav ul:last-child li svg{
-  height: 1em;
-  width: 1em;
+header nav ul:last-child li img{
+  height: .7em;
+  width: .7em;
 }
 
-#finder circle {
-  stroke: var(--main-font-color) !important;
-  fill: transparent !important;
-}
-
-#finder path {
-  fill: var(--main-font-color) !important;
+header nav ul:last-child li img:hover{
+  filter: brightness(0) saturate(100%) invert(23%) sepia(83%) saturate(442%) hue-rotate(329deg) brightness(92%) contrast(100%);
 }
