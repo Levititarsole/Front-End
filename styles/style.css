@@ -291,18 +291,18 @@ header nav ul:last-child li img:hover{
 header nav ul:last-child li a div {
   position: absolute;
   width: 100%;
-  background-color: var(--nav-bar-color);
-  z-index: -1;
+  background-image: linear-gradient(transparent 1em, var(--nav-bar-color) 0);  /* Bron Sanne */
+  z-index: 4;
   left: 0;
   display: none;
   align-items: flex-start;
   flex-direction: row;
   padding: 40px 10%;
   border-bottom: solid 1px var(--border-color);
-  margin-top: 1em;
+  padding-top: 2.5em;
 }
 
-header nav ul:last-child li a:hover div {
+header nav ul:last-child li:hover div {
   display: flex;
 }
 
