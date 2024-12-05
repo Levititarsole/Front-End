@@ -17,7 +17,7 @@
 
 @media (min-width: 42em) {
 
-    section:first-child{
+    main section:first-child{
         height: 80vh !important;
     }
 
@@ -84,7 +84,7 @@
 
 
 /* hero image */
-section:first-child{
+main section:first-child{
     position: relative;;
     width: 100vw;
     height: 45vh;
