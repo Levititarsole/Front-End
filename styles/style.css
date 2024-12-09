@@ -14,8 +14,8 @@
   --lead-size: 2.6em;
 
   /* kleuren */
-  --main-bg-color: #fcf5ed;
-  --block-bg-color: #fefefe;
+  --main-bg-color:light-dark(#fcf5ed,#2b2623) ;
+  --block-bg-color:light-dark (#fefefe, #3e3a36);
   --main-font-color: #4d3928;
   --second-font-color: #aa182c;
   --button-font-color: #aa182c;
@@ -41,6 +41,19 @@
   --radius-medium: .3em;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --main-bg-color: ; */
+    /* --block-bg-color: #3e3a36; */
+    --main-font-color: #eae1d6;
+    --button-font-color: #ffffff;
+    --border-color: #3c3835;
+    --border-second-color: #47423f;
+    --light-button-color: #3e3a36;
+    --white-button-color: #5a534f;
+    --nav-bar-color: #2B2B28;
+  }
+}
 @font-face {
   font-family: head;
   src: url(../assets/Efteling-Regular.woff2);
@@ -56,19 +69,6 @@
   src: url(../assets/Alegreya-VariableFont_wght.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-bg-color: #2b2623;
-    --block-bg-color: #3e3a36;
-    --main-font-color: #eae1d6;
-    --button-font-color: #ffffff;
-    --border-color: #3c3835;
-    --border-second-color: #47423f;
-    --light-button-color: #3e3a36;
-    --white-button-color: #5a534f;
-    --nav-bar-color: #2B2B28;
-  }
-}
 
 *{
   font-family: var(--main-font);
@@ -223,6 +223,10 @@ header nav ul li a:hover {
   cursor: pointer;
 }
 
+.dis-line:hover {
+  text-underline-offset: 1.2em;
+}
+
 header nav div{
   display: flex;
   flex-direction: column;
@@ -267,7 +271,6 @@ header nav ul li:hover{
 }
 
 header nav ul:last-child li:nth-child(1) a{
-  padding: .25em .8em;
   font-family: var(--main-font) !important;
   color: white;
 }
@@ -288,7 +291,7 @@ header nav ul:last-child li img:hover{
   filter: brightness(0) saturate(100%) invert(23%) sepia(83%) saturate(442%) hue-rotate(329deg) brightness(92%) contrast(100%);
 }
 
-header nav ul:last-child li a div {
+header nav ul:last-child li div{
   position: absolute;
   width: 100%;
   background-image: linear-gradient(transparent 1em, var(--nav-bar-color) 0);  /* Bron Sanne */
@@ -306,7 +309,7 @@ header nav ul:last-child li:hover div {
   display: flex;
 }
 
-header nav ul:last-child li a div ul{
+header nav ul:last-child li div ul{
   display: inline;
   width: fit-content;
   margin-right: var(--blok-margin);
@@ -316,8 +319,73 @@ header nav ul:last-child li a div ul{
   align-items: flex-start;
 }
 
-header nav ul:last-child li a div ul li:first-child{
+header nav ul:last-child li div ul li:first-child{
   font-weight: 900;
   font-size: calc(var(--heading-size) - .2em);
   margin-bottom: .5em;
+}
+
+header nav ul:last-child li div ul li img {
+  height: 12em;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(.7);
+  transition: 200ms;
+}
+
+header nav ul:last-child li div ul li img:hover {
+  filter: brightness(.9);
+  cursor: pointer;
+}
+
+header nav ul:last-child li div ul li button:hover {
+  cursor: pointer;
+}
+
+header nav ul:last-child li div ul li button{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: unset !important;
+  width: 78%;
+  text-align: center;
+}
+
+.img-holder{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 14em;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+@media (max-width: 58em) {
+  .hamburger-button {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+  }
+
+  .hamburger-button div{
+    gap: .3em !important;
+  }
+
+  .hamburger-button span {
+    background-color: white;
+    height: .2em;
+    border-radius: 20em;
+    width: 1.4em;
+  }
+
+  /* header nav ul:last-child li div{
+    display: flex;
+  } */
+
 }
