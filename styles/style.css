@@ -15,12 +15,13 @@
   --lead-size: 2.6em;
 
   /* kleuren */
-  --main-bg-color:light-dark(#fcf5ed,#2b2623) ;
-  --block-bg-color:light-dark (#fefefe, #3e3a36);
+  --main-bg-color: #fcf5ed;
+  --block-bg-color: #fefefe;
   --main-font-color: #4d3928;
   --second-font-color: #aa182c;
+  --small-text-color: #4d3928;
   --button-font-color: #aa182c;
-  --border-color: #ede5d5;
+  --border-color: #ede5d5;      
   --border-second-color: #ECE6D6;
   --light-button-color: #FBFBF8;
   --white-button-color: #FFFFFF;
@@ -44,10 +45,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --main-bg-color: ; */
-    /* --block-bg-color: #3e3a36; */
+    --main-bg-color: #2b2623;
+    --block-bg-color: #3e3a36;
     --main-font-color: #eae1d6;
     --button-font-color: #ffffff;
+    --small-text-color: rgb(133, 119, 109);
     --border-color: #3c3835;
     --border-second-color: #47423f;
     --light-button-color: #3e3a36;

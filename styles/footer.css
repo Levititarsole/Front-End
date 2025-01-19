@@ -1,0 +1,91 @@
+footer{
+    background-color: var(--nav-bar-color);
+    width: 100vw;
+    margin-top: 10em;
+    border-top: solid 2px var(--border-color);
+}
+
+footer section:first-child{
+    font-size: var(--heading-size);
+    color: var(--main-font-color);
+    border-bottom: solid 1.5px var(--border-color);
+    padding: 1.2em 5em;
+}
+
+footer section:first-child p span{
+    font-weight: bolder;
+}
+
+footer section:first-child a{
+    color: var(--main-font-color);
+}
+
+.list-items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding: 3em 0;
+    list-style: none;
+}
+
+footer ul li{
+    list-style: none;
+    width: 100%;
+}
+
+footer ul li a{
+    color: var(--main-font-color);
+    text-decoration: none;
+    line-height: 1.7em;
+}
+
+footer ul li ul li:first-child a{
+    color: var(--main-font-color);
+    text-decoration: none;
+    font-size: 1.3em;
+    line-height: 2.5em;
+}
+
+footer ul li h6{
+    text-decoration: none;
+    font-size: 1.3em;
+    line-height: 2.5em;
+    font-family: var(--main-font);
+}
+
+footer ul li:last-child{
+    line-height: 1.3em;
+}
+
+footer ul li:last-child input{
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--blok-radius);
+    background-color: unset;
+    box-shadow: none;
+    border: 1.5px solid var(--border-color);
+    margin: .5em 0 1em;
+}
+
+footer ul li:last-child p:last-child{
+    font-size: .8em;
+    margin-top: 1.5em;
+    color: var(--small-text-color);
+}
+
+footer a:hover{
+    color: var(--second-font-color);
+}
+
+
+@media (max-width: 1050px) {
+    
+    .list-items{
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    
+    footer ul > li{
+        width: 15em;
+    }
+}
