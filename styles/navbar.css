@@ -1,0 +1,231 @@
+header{
+    width: 100vw;
+    height: fit-content;
+    background-color: var(--nav-bar-color);
+    z-index: 10;
+    overflow-x: scroll;
+    position: fixed;
+}
+
+header > section:first-child{
+    height: 4em;
+    border-bottom: solid 2px var(--border-second-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+    background-color: var(--nav-bar-color);
+    z-index: 100;
+    position: fixed;
+    width: 90%;
+    padding: 0 5%;
+
+}
+
+header > section:first-child ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+header > section:first-child > ul img{
+    height: 1.3em;
+}
+
+header > section:first-child > ul li button{
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    border: none;
+    color: var(--main-font-color);
+    background-color: var(--nav-bar-color);
+    cursor: pointer;
+    font-size: 1.15em;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    gap: .3em;
+}
+
+header > section:first-child > ul li button div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px
+}
+
+header > section:first-child > ul li button div span {
+    display: block;
+    width: 1.3em;
+    border-radius: 1em;
+    height: .18em;
+    background-color: var(--main-font-color);
+}
+
+header > nav {
+    display: none;
+}
+
+header > nav.toonNav {
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: 1s ease-out;
+    max-height: 100vh;
+}
+
+
+header > nav > section:first-child{
+    height: calc(2em + 4em);
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-button-color);
+    border-bottom: solid 2px var(--border-second-color);
+}
+
+.top-height{
+    margin-top: 30px;
+    font-size: var(--heading-size);
+    font-family: var(--heading-font);
+}
+
+header > nav ul li {
+    line-height: 3em;
+    position: relative;
+}
+
+header > nav ul li span{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 3em;
+    width: 3em;
+    background-color: var(--light-button-color);
+    border-left: 2px solid var(--border-second-color);
+}
+
+header > nav ul li span::after{
+    position: absolute;
+    content: '+';
+    top: 0;
+    left: .75em;
+    font-size: 1.5em;
+}
+
+header > nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid var(--border-second-color);
+    color: var(--main-font-color);
+}
+
+header > nav > section:last-child{
+    width: 100%;
+    height: 10em;
+    text-decoration: underline;
+    background-color: var(--nav-bar-color);
+    border-bottom: none;
+}
+
+header > nav > section:last-child > ul{
+    list-style: none;
+    padding: 40px 0 0 20px;
+}
+
+header > nav > section:last-child ul li:last-child ul{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+}
+
+
+@media (min-width: 1230px) {
+    header{
+        height: 6em;
+        border-bottom: solid 2px var(--border-second-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        padding: 0 10%;
+        overflow: hidden;
+    }
+
+    header > section:first-child{
+        padding: 0;
+        width: fit-content;
+        gap: 0;
+        position: relative;
+        border-bottom: 0;
+    }     
+
+    header > section:first-child ul {
+        display: none;
+    }
+    
+    header > section:first-child > ul li{
+        display: none;
+    }
+
+    header > nav {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 8em;
+        align-items: flex-end;
+        width: 80%;
+        height: 100%;
+        position: relative;
+    }
+
+    header > nav > section:first-child{
+        margin-top: 0;
+        margin-bottom: .5em;
+        height: fit-content;
+    }
+
+    header > nav > section:last-child{
+        position: absolute;
+        background-color: unset;
+        height: fit-content;
+        right: 0;
+        top: 0px;
+    }
+
+    header > nav > section:last-child > ul {
+        padding: 0;
+        display: flex;
+        gap: 2em;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    header > nav > ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+    }
+
+    .top-height {
+        border-bottom: 0;
+        display: block;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    header > nav ul li {
+        line-height: auto;
+    }
+
+    header nav ul li ul {
+        display: none;
+    }
+}

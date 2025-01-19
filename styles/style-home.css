@@ -27,17 +27,17 @@
     }
 
     /* eerste blok */
-    section:nth-child(3){
+    main section:nth-child(3){
         flex-direction: row !important;
         justify-content: flex-start;
         gap: 40px;
     }
 
-    section:nth-child(3) h4{
+    main section:nth-child(3) h4{
         font-size: 1.7em !important;
     }
 
-    section:nth-child(3) img{
+    main section:nth-child(3) img{
         width: 25em;
         margin: 20px 0 0;
     }
@@ -193,7 +193,7 @@ section:nth-child(2) a p:last-child:hover{
 }
 
 /* Eerste blok  */
-section:nth-child(3) {
+main section:nth-child(3) {
     margin-top: var(--blok-margin);
     background-color: var(--block-bg-color);
     display: flex;
@@ -205,13 +205,13 @@ section:nth-child(3) {
     padding-top: 0;
 }
 
-section:nth-child(3) h4 {
+main section:nth-child(3) h4 {
     font-size: var(--heading-size);
     color: var(--button-font-color);
 
 }
 
-section:nth-child(3) ul li {
+main section:nth-child(3) ul li {
     list-style: none;
     display: flex;
     align-items: baseline;
@@ -219,15 +219,15 @@ section:nth-child(3) ul li {
     margin-bottom: var(--list-margin);
 }
 
-section:nth-child(3) ul li:first-child {
+main section:nth-child(3) ul li:first-child {
     margin-top: var(--heading-margin);
 }
 
-section:nth-child(3) ul li:last-child {
+main section:nth-child(3) ul li:last-child {
     margin-bottom: var(--heading-margin);
 }
 
-section:nth-child(3) ul li::before {
+main section:nth-child(3) ul li::before {
     content: "";
     background-image: url('../assets/Green.svg');
     background-size: contain;
