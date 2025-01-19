@@ -7,6 +7,10 @@ header{
     position: fixed;
 }
 
+header section:first-child img:first-child {
+    cursor: pointer;
+}
+
 header > section:first-child{
     height: 4em;
     border-bottom: solid 2px var(--border-second-color);
@@ -32,6 +36,7 @@ header > section:first-child ul{
 
 header > section:first-child > ul img{
     height: 1.3em;
+    cursor: pointer;
 }
 
 header > section:first-child > ul li button{
