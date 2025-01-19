@@ -177,7 +177,7 @@ header > nav > section:last-child ul li:last-child ul{
     header > nav {
         display: flex;
         flex-direction: row-reverse;
-        gap: 8em;
+        gap: 2em;
         align-items: flex-end;
         width: 80%;
         height: 100%;
@@ -205,6 +205,8 @@ header > nav > section:last-child ul li:last-child ul{
         position: absolute;
         right: 0;
         top: 0;
+        text-decoration: underline;
+        color: var(--main-font-color);
     }
 
     header > nav > ul{
@@ -221,6 +223,12 @@ header > nav > section:last-child ul li:last-child ul{
         font-size: 1.2em;
     }
 
+    .top-height:hover {
+        text-decoration: underline 2px;
+        color: var(--second-font-color);
+        text-underline-offset: .85em;
+    }
+
     header > nav ul li {
         line-height: auto;
     }
@@ -228,4 +236,5 @@ header > nav > section:last-child ul li:last-child ul{
     header nav ul li ul {
         display: none;
     }
+    
 }
