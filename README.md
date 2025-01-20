@@ -224,8 +224,9 @@ Hier heb ik samen met Sanne gekeken naar me voortgang en hebben we samen gekeken
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. ChatGPT - is gebruikt voor het vinden van code die ik vergeten was. (inline-blok element)
+  2. ChatGPT - Heeft me geholpen met hoe de ::after en de ::Before elementen werken.
+  3. W3Schools - voor de juiste Input punten te gebruiken.
+  4. Sanne - Voor de max Witdh
 
 </details>
