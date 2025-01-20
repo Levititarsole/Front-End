@@ -2,10 +2,6 @@
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
 
 
 
@@ -90,7 +86,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 (week 2) ✅
 
 <details open>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
@@ -119,7 +115,7 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 (week 3) ✅
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
@@ -131,20 +127,17 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Stefan      | Anna          | Yaun    | Levi       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe kun je makkelijk een hamburger menu maken| Hoe krijg ik een plaatje op de juiste plek | Hoe werkt een grid op de juiste maniet    | Wanneer je nou wel een div gebruiken mag    |
+  | ⁠⁠en hoe kan ik me website goed responsive inrichten | ? | Is het oke dat 1 van mij pagina's meer verschillende secties heeft| En voor hoeveel verschillende dingen ik een Root ellement gebruiken moet |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+- Kijk goed naar de voorbeelden in github
+- max witdh met witdh van 80% en en max witdh van aantal px
 
 </details>
 
@@ -152,21 +145,20 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
 
 
-## Toegankelijkheidstest 2/2 (week 4)
+## Toegankelijkheidstest 2/2 (week 4) ✅ 
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  - alle knoppen zijn op dit moment leesbaar
+  - de H1, H2, H3 zijn  er nu maar 1 van om meer wanneer dat mag
+  - De gebruiker kan gebruik maken van een dark mode
+  - De gebruiker kan gemakkelijk door de website heen met de tab toets
 </details>
 
 
-
-
-
-## Voortgang 3 (week 4)
+## Voortgang 3 (week 4) ✅
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
@@ -177,21 +169,15 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Hier heb ik samen met Sanne gekeken naar me voortgang en hebben we samen gekeken hoe ik het men u beter zou kunnen maken tot af maken.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Eerst de website maken voor mobile!
+- Dark mode goed naar kijken
+- goed gebruik gemaakt van var's
 
 </details>
 
@@ -199,32 +185,32 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
 
 
-## Eindgesprek (week 5)
+## Eindgesprek (week 5) ✅
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/github/home.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  iets wat ik n iuew geleerd heb is de witdh te gebruiken op een manier dat hij opengegeven moment niet meer verder gaat
+  <img src="./images/github/witdh.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is me helaas niet om de navbar responsive te krijgen. Beide maken lukt maar het samen voegen lukt niet
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="./images/github/menu.png" width="375px" alt="bummer">
 </details>
 
 
 
 
 
-## Bronnenlijst
+## Bronnenlijst ✅
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
@@ -233,8 +219,9 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. ChatGPT - is gebruikt voor het vinden van code die ik vergeten was. (inline-blok element)
+  2. ChatGPT - Heeft me geholpen met hoe de ::after en de ::Before elementen werken.
+  3. W3Schools - voor de juiste Input punten te gebruiken.
+  4. Sanne - Voor de max Witdh
 
 </details>
