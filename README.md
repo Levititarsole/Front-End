@@ -86,7 +86,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 (week 2) ✅
 
 <details open>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
@@ -115,7 +115,7 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 (week 3) ✅
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
@@ -145,7 +145,7 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
 
 
-## Toegankelijkheidstest 2/2 (week 4)
+## Toegankelijkheidstest 2/2 (week 4) ✅ 
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
@@ -158,7 +158,7 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 </details>
 
 
-## Voortgang 3 (week 4)
+## Voortgang 3 (week 4) ✅
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
@@ -185,7 +185,7 @@ Hier heb ik samen met Sanne gekeken naar me voortgang en hebben we samen gekeken
 
 
 
-## Eindgesprek (week 5)
+## Eindgesprek (week 5) ✅
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
@@ -210,7 +210,7 @@ Hier heb ik samen met Sanne gekeken naar me voortgang en hebben we samen gekeken
 
 
 
-## Bronnenlijst
+## Bronnenlijst ✅
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
