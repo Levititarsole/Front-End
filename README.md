@@ -151,12 +151,11 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  - alle knoppen zijn op dit moment leesbaar
+  - de H1, H2, H3 zijn  er nu maar 1 van om meer wanneer dat mag
+  - De gebruiker kan gebruik maken van een dark mode
+  - De gebruiker kan gemakkelijk door de website heen met de tab toets
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -192,19 +191,19 @@ Hier heb ik samen met Sanne gekeken naar me voortgang en hebben we samen gekeken
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/github/home.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  iets wat ik n iuew geleerd heb is de witdh te gebruiken op een manier dat hij opengegeven moment niet meer verder gaat
+  <img src="./images/github/witdh.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Het is me helaas niet om de navbar responsive te krijgen. Beide maken lukt maar het samen voegen lukt niet
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="./images/github/menu.png" width="375px" alt="bummer">
 </details>
 
 
