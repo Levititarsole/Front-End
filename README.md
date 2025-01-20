@@ -131,20 +131,17 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Stefan      | Anna          | Yaun    | Levi       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe kun je makkelijk een hamburger menu maken| Hoe krijg ik een plaatje op de juiste plek | Hoe werkt een grid op de juiste maniet    | Wanneer je nou wel een div gebruiken mag    |
+  | ⁠⁠en hoe kan ik me website goed responsive inrichten | ? | Is het oke dat 1 van mij pagina's meer verschillende secties heeft| En voor hoeveel verschillende dingen ik een Root ellement gebruiken moet |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+- Kijk goed naar de voorbeelden in github
+- max witdh met witdh van 80% en en max witdh van aantal px
 
 </details>
 
@@ -177,21 +174,15 @@ Ik merkte vooral dat ik erg voorliep op andere uit de klas maar ik heb goeie fee
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Hier heb ik samen met Sanne gekeken naar me voortgang en hebben we samen gekeken hoe ik het men u beter zou kunnen maken tot af maken.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Eerst de website maken voor mobile!
+- Dark mode goed naar kijken
+- goed gebruik gemaakt van var's
 
 </details>
 
