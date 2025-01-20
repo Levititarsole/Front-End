@@ -1,0 +1,149 @@
+
+.block-holder{
+    display: inline-flex;
+    padding: 7px 20px;
+    border: 2px solid var(--border-second-color);
+    outline: 3px solid var(--white-button-color);
+    background-color: var(--white-button-color);
+    color: var(--button-font-color);
+    /* width: fit-content; */
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    font-size: var(--text-size);
+    font-family: var(--main-font);
+    text-decoration: none;
+    border-radius: var(--radius-small);
+    gap:.10px;
+    align-items:center;
+    box-shadow: 0px 0px 0px 4px var(--border-second-color);
+    margin-top: 1em;
+  } 
+
+main > section:nth-child(1){
+    height: 40vh;
+    display: flex;
+    padding-top: 10em;
+    gap: 9em;
+}
+
+main > section:nth-child(1) section:first-child{
+    width: 230%;
+    font-family: var(--head-font);
+}
+
+main h1{
+    font-size: calc(var(--lead-size) - .5em);
+    color: var(--second-font-color);
+    margin-bottom: .7em;
+}
+
+main > section:nth-child(1) section:first-child p{
+    font-size: var(--heading-size);
+    font-family: var(--heading-font);
+    margin-bottom: var(--heading-margin);
+    color: var(--main-font-color);
+
+}
+
+main > section:nth-child(1) section:first-child p span a {
+    font-size: var(--heading-size);
+    font-family: var(--heading-font);
+    text-decoration: underline;
+    color: var(--main-font-color);
+}
+
+main > section:nth-child(1) section:last-child{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 2em;
+}
+
+main h3{
+    color: var(--button-font-color);
+    font-size: 1.4em;
+    font-weight: 100;
+    margin-bottom: 1em;
+}   
+
+main > section:nth-child(1) section:last-child p {
+    color: var(--main-font-color);
+}
+
+main > section:nth-child(2) div{
+    margin-top: var(--blok-margin);
+    width: calc(100% - 40px);
+    justify-content: space-around;
+}
+
+main > section:nth-child(2) div section table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main > section:nth-child(2) div section table thead{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    text-transform: lowercase;
+    color: var(--main-font-color);
+}
+
+main > section:nth-child(2) div section table thead th{
+    width: 5em;
+    position: relative;
+}
+
+main > section:nth-child(2) div section table tbody td{
+    height: 5em;
+    min-height: 5em;
+    min-width: 5em;
+    width: 5em;
+    background-color: var(--nav-bar-color);
+    border-radius: var(--radius-medium);
+    color: var(--main-font-color);
+}
+
+main > section:nth-child(2) div section table tbody td:empty{
+    background-color: unset;
+    cursor: default;
+}
+
+main > section:nth-child(2) div section table tbody td:hover{
+    cursor: pointer;
+}
+
+main > section:nth-child(2) div section table tbody td span{
+    display: block;
+    font-size: 1.4em;
+}
+
+main > section:nth-child(2) div section table tbody td span:last-child{
+    font-size: .8em;
+}
+
+.druk {
+    background-color: #f8bb99!important;
+}
+
+.normaal {
+    background-color: #f7d797!important;
+}
+
+.rustig {
+    background-color: #BAD3BB!important;
+}
+
+.geweest {
+    background-color: light-dark(#a59d95,#322c26 )!important;
+    color: light-dark(#867d73,#403932 )!important;
+}
+
+main > section:nth-child(2) div section > section {
+    padding: 2em;
+    color: var(--main-font-color);
+}

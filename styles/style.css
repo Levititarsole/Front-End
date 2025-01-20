@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blockst{
   border: 1px solid var(--border-second-color);
-  background-color: white;
+  background-color: var(--block-bg-color);
   bottom: -50px;
   display: flex;
   align-items: center;
@@ -171,6 +171,7 @@ outline: 3px solid #9c1426;
 .white-button:hover{
   outline: 3px solid rgb(252, 252, 252);
   background-color: rgb(252, 252, 252);
+  color: var(--main-bg-color);
 }
 
 .arrow::after {
@@ -196,5 +197,3 @@ body{
   font-size: var(--text-size);
   background-color: var(--main-bg-color);
 }
-
-/* Navigatie */
